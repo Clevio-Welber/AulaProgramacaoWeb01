@@ -1,4 +1,3 @@
-// ====== FORMULÁRIO DE CONTATO ======
 const formContato = document.getElementById("form-contato");
 const status = document.getElementById("status");
 
@@ -11,7 +10,6 @@ if (formContato) {
     });
 }
 
-// ====== FORMULÁRIO DE CADASTRO ======
 const formCadastro = document.getElementById("form-cadastro");
 const msgSucesso = document.getElementById("mensagem-sucesso");
 
