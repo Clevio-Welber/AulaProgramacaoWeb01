@@ -1,23 +1,25 @@
+// ====== FORMULÁRIO DE CONTATO ======
+const formContato = document.getElementById("form-contato");
+const status = document.getElementById("status");
 
-// Modal de voluntário
-function abrirModal() {
-  document.getElementById("modal-voluntario").style.display = "flex";
+if (formContato) {
+    formContato.addEventListener("submit", (e) => {
+        e.preventDefault();
+        status.textContent = "✅ Mensagem enviada com sucesso!";
+        status.style.color = "green";
+        formContato.reset();
+    });
 }
 
-function fecharModal() {
-  document.getElementById("modal-voluntario").style.display = "none";
-}
+// ====== FORMULÁRIO DE CADASTRO ======
+const formCadastro = document.getElementById("form-cadastro");
+const msgSucesso = document.getElementById("mensagem-sucesso");
 
-function enviarFormulario(event) {
-  event.preventDefault();
-  const nome = document.getElementById("nome").value;
-  alert(`Obrigado, ${nome}! Sua inscrição foi enviada com sucesso.`);
-  fecharModal();
-}
-
-// Formulário de contato
-function enviarContato(event) {
-  event.preventDefault();
-  const nome = document.getElementById("nome-contato").value;
-  alert(`Obrigado, ${nome}! Sua mensagem foi enviada com sucesso.`);
+if (formCadastro) {
+    formCadastro.addEventListener("submit", (e) => {
+        e.preventDefault();
+        msgSucesso.textContent = "🎉 Cadastro enviado com sucesso! Entraremos em contato em breve.";
+        msgSucesso.style.color = "green";
+        formCadastro.reset();
+    });
 }
