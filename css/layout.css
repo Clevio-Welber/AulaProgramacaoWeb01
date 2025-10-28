@@ -1,0 +1,57 @@
+/* Estrutura do site: header, nav, main e footer */
+
+/* Header e navegação */
+header {
+  background-color: #004aad;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main */
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Seções */
+section {
+  margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+  background-color: #004aad;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+}
+
+/* Containers gerais */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
