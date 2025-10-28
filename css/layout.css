@@ -1,6 +1,3 @@
-/* Estrutura do site: header, nav, main e footer */
-
-/* Header e navegação */
 header {
   background-color: #004aad;
   color: white;
@@ -27,7 +24,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Main */
 main {
   max-width: 1200px;
   margin: 20px auto;
@@ -35,12 +31,10 @@ main {
   background-color: #f4f4f4;
 }
 
-/* Seções */
 section {
   margin-bottom: 30px;
 }
 
-/* Footer */
 footer {
   background-color: #004aad;
   color: white;
@@ -49,7 +43,6 @@ footer {
   margin-top: 30px;
 }
 
-/* Containers gerais */
 .container {
   width: 90%;
   max-width: 1200px;
